@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <link rel="stylesheet" href="Datepicker.js-master\dist\css\datepicker.material.css">
+    <script src="Datepicker.js-master\dist\datepicker.js"></script>
+</head>
+
+<body>
+    <form action="action.php" method="GET">
+        <input type="text" id="multi">
+        <input type="submit">
+    </form>
+</body>
+<script>
+    var multi = new Datepicker('#multi', {
+        multiple: true
+    });
+</script>
+
+</html>
